@@ -22,5 +22,5 @@ pyhton main.py -- dataset amazon_beauty -- num_cluster 32 -- lambda_intent=0.4 -
 
 To train the model on Toys:
 ```
-pyhton main.py -- dataset toys -- num_cluster 32 -- lambda_intent 0.2 -- lambda_history 0.6 -- eval_interval 2 -- patience 10
+pyhton main.py -- dataset toys -- num_cluster 32 -- lambda_intent 0.4 -- lambda_history 1 -- lambda_contra 1 -- eval_interval 2 -- patience 10
 ```
